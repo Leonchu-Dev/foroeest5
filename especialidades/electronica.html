@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro de Electrónica - E.E.S.T. N°5</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <!-- REEMPLAZAR ESTE DIV CON TU LOGO -->
+                <div class="logo-placeholder">
+                    <img src="../assets/logo.png" alt="Logo EEST N5">
+                </div>
+                <h1 class="school-title">Foro E.E.S.T. N°5</h1>
+            </div>
+            <button class="hamburger-menu" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="construcciones.html">Construcciones</a></li>
+                    <li><a href="informatica.html">Informática</a></li>
+                    <li><a href="electronica.html">Electrónica</a></li>
+                    <li><a href="../registros/login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="forum-header">
+            <h1>Foro de Electrónica ⚡</h1>
+            <a href="../temas/crear-tema.html" class="new-topic-btn">Nuevo Tema</a>
+        </div>
+
+        <!-- Barra de Búsqueda -->
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Buscar en temas de Electrónica...">
+        </div>
+
+        <div class="forum-list">
+            <!-- Ejemplo de un tema -->
+            <div class="topic">
+                <div class="topic-icon">💬</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-ampop.html">Problema con un circuito de amplificador operacional</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">VoltJunkie</a> hace 9 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>4</strong> respuestas</div>
+                    <div><strong>51</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Ejemplo de otro tema -->
+            <div class="topic">
+                <div class="topic-icon">💡</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-robotica.html">Ideas para proyecto de robótica con Arduino</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">RoboSpark</a> hace 3 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>21</strong> respuestas</div>
+                    <div><strong>210</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Ejemplo de otro tema -->
+            <div class="topic">
+                <div class="topic-icon">⚙️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-micro.html">¿Cómo elegir el microcontrolador adecuado (PIC vs Arduino vs ESP32)?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">MicroManiac</a> hace 5 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>18</strong> respuestas</div>
+                    <div><strong>250</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🔋</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-fuentes.html">Ventajas de las fuentes conmutadas sobre las lineales</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">PowerPulse</a> hace 1 día</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>39</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">☁️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-iot.html">¿ESP8266 o ESP32 para empezar con proyectos IoT?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">IoT_Explorer</a> hace 2 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>55</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">💻</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-pcb.html">¿Qué software usan para diseñar PCBs? (EasyEDA, KiCad...)</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">MicroManiac</a> hace 8 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>92</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">📈</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-simulacion.html">Mejor simulador de circuitos: ¿Proteus, Multisim o LTspice?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">PowerPulse</a> hace 12 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>28</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">〰️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-filtros.html">Diferencia real entre filtros pasivos y activos</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">VoltJunkie</a> hace 11 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>102</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">💡</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-sensores.html">Ideas de proyectos con sensores "raros"</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">RoboSpark</a> hace 20 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>41</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🔥</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-soldadura.html">Consejos para que la soldadura con estaño quede brillante</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">PowerPulse</a> hace 15 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>130</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">📈</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-osciloscopio.html">¿Para qué sirve el "trigger" en el osciloscopio?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">RoboSpark</a> hace 4 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>22</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🔋</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-baterias.html">¿Qué batería usar para proyectos portátiles? (Li-ion vs LiPo)</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">IoT_Explorer</a> hace 19 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>145</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">⚙️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-motores.html">¿Motor paso a paso (Stepper) o Servomotor?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">MicroManiac</a> hace 7 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>28</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">📡</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-comunicacion.html">Protocolos de comunicación: ¿I2C o SPI?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">IoT_Explorer</a> hace 22 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>155</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">⚡</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-transistores.html">Transistores BJT vs. MOSFET para conmutación</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">VoltJunkie</a> hace 1 hora</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>8</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🖨️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-impresion3d.html">¿Filamento PLA o ABS para gabinetes de proyectos?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">RoboSpark</a> hace 28 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>170</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">📊</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-electronica-pwm.html">¿Cómo funciona el PWM para controlar un LED o un motor?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">PowerPulse</a> hace 3 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>11</strong> vistas</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 E.E.S.T. N°5 "Amancio Williams". Todos los derechos reservados. Creado por los alumnos en el Club de Tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

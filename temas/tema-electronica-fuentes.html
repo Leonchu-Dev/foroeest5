@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuentes Conmutadas - Foro E.E.S.T. N°5</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-placeholder">
+                    <img src="../assets/logo.png" alt="Logo EEST N5" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h1 class="school-title">Foro E.E.S.T. N°5</h1>
+            </div>
+            <button class="hamburger-menu" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../especialidades/construcciones.html">Construcciones</a></li>
+                    <li><a href="../especialidades/informatica.html">Informática</a></li>
+                    <li><a href="../especialidades/electronica.html">Electrónica</a></li>
+                    <li><a href="../registros/login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Título del Tema -->
+        <div class="topic-title-header">
+            <h1>Ventajas de las fuentes conmutadas sobre las lineales</h1>
+        </div>
+
+        <!-- Post Original -->
+        <div class="post original-post">
+            <div class="post-author">
+                <div class="author-avatar">PP</div>
+                <div class="author-details">
+                    <strong>PowerPulse</strong>
+                    <small>Publicado hace 1 día</small>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>Hola. Para alimentar un proyecto, siempre usamos fuentes lineales con un transformador, puente de diodos y un 7805. Pero veo que todos los cargadores modernos son "switching" o conmutadas. ¿Cuál es la ventaja real? ¿Son mucho más eficientes? ¿Son más difíciles de diseñar?</p>
+            </div>
+        </div>
+
+        <!-- Respuestas -->
+        <div class="responses-header">
+            <h3>Respuestas</h3>
+        </div>
+        <div id="responses-container">
+            <div class="post">
+                <div class="post-author">
+                    <div class="author-avatar" style="background-color: #006400;">PJ</div>
+                    <div class="author-details">
+                        <strong>Prof_Juarez</strong>
+                        <small>Publicado hace 15 horas</small>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Martín, la principal ventaja es la eficiencia. Una fuente lineal disipa la energía sobrante como calor (por eso el 7805 calienta tanto). Una conmutada "trocea" la energía a alta frecuencia y es mucho más eficiente (80-95%). Por eso son más pequeñas y livianas. Son más complejas de diseñar porque generan más ruido eléctrico, pero para la mayoría de aplicaciones, las ventajas son enormes.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 E.E.S.T. N°5 "Amancio Williams". Todos los derechos reservados. Creado por los alumnos en el Club de Tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

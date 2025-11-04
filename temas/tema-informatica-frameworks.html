@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameworks JS - Foro E.E.S.T. N°5</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-placeholder">
+                    <img src="../assets/logo.png" alt="Logo EEST N5">
+                </div>
+                <h1 class="school-title">Foro E.E.S.T. N°5</h1>
+            </div>
+            <button class="hamburger-menu" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../especialidades/construcciones.html">Construcciones</a></li>
+                    <li><a href="../especialidades/informatica.html">Informática</a></li>
+                    <li><a href="../especialidades/electronica.html">Electrónica</a></li>
+                    <li><a href="../registros/login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Título del Tema -->
+        <div class="topic-title-header">
+            <h1>¿React, Angular o Vue para empezar en el desarrollo web?</h1>
+        </div>
+
+        <!-- Post Original -->
+        <div class="post original-post">
+            <div class="post-author">
+                <div class="author-avatar">SK</div>
+                <div class="author-details">
+                    <strong>ScriptKitten</strong>
+                    <small>Publicado hace 2 días</small>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>Ya tengo una base de HTML, CSS y JavaScript, y quiero empezar a aprender un framework para hacer aplicaciones web más complejas. Veo que los más populares son React, Angular y Vue, pero no sé por cuál decidirme. ¿Cuál tiene la curva de aprendizaje más amigable y cuál tiene más salida laboral?</p>
+            </div>
+        </div>
+
+        <!-- Respuestas -->
+        <div class="responses-header">
+            <h3>Respuestas</h3>
+        </div>
+        <div id="responses-container">
+            <div class="post">
+                <div class="post-author">
+                    <div class="author-avatar" style="background-color: #8B0000;">VJ</div>
+                    <div class="author-details">
+                        <strong>VoltJunkie</strong>
+                        <small>Publicado hace 1 día</small>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>¡Hola Daniela! Es el siguiente paso natural. En mi opinión, React es una excelente opción para empezar. Tiene una comunidad enorme, muchísimos recursos para aprender y es el más demandado en el mercado laboral actualmente. Vue también es conocido por ser muy fácil de aprender, pero React te da una base muy sólida. Angular es más robusto y completo, pero su curva de aprendizaje es bastante más pronunciada.</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <div class="author-avatar" style="background-color: #2a5a2a;">PD</div>
+                    <div class="author-details">
+                        <strong>PixelDreamer</strong>
+                        <small>Publicado hace 18 horas</small>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Yo no estaría tan seguro. Empecé con Vue y la curva de aprendizaje es mucho más suave que la de React. La documentación oficial es una maravilla y te permite ser productivo muy rápido. Para proyectos personales o para entender los conceptos de reactividad, me parece una mejor puerta de entrada.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 E.E.S.T. N°5 "Amancio Williams". Todos los derechos reservados. Creado por los alumnos en el Club de Tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

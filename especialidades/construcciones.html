@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro de Construcciones - E.E.S.T. N°5</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <!-- REEMPLAZAR ESTE DIV CON TU LOGO -->
+                <div class="logo-placeholder">
+                    <img src="../assets/logo.png" alt="Logo EEST N5">
+                </div>
+                <h1 class="school-title">Foro E.E.S.T. N°5</h1>
+            </div>
+            <button class="hamburger-menu" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="construcciones.html">Construcciones</a></li>
+                    <li><a href="informatica.html">Informática</a></li>
+                    <li><a href="electronica.html">Electrónica</a></li>
+                    <li><a href="../registros/login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="forum-header">
+            <h1>Foro de Construcciones 🏗️</h1>
+            <a href="../temas/crear-tema.html" class="new-topic-btn">Nuevo Tema</a>
+        </div>
+
+        <!-- Barra de Búsqueda -->
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Buscar en temas de Construcciones...">
+        </div>
+
+        <div class="forum-list">
+            <!-- Ejemplo de un tema -->
+            <div class="topic">
+                <div class="topic-icon">💬</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-estructuras.html">Dudas sobre cálculo de estructuras para el proyecto de 7mo</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">ArchiGeek</a> hace 5 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>8</strong> respuestas</div>
+                    <div><strong>45</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Ejemplo de otro tema -->
+            <div class="topic">
+                <div class="topic-icon">❓</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-cad.html">¿Qué software de diseño (CAD) recomiendan para empezar?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">CAD_Guru</a> hace 2 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>15</strong> respuestas</div>
+                    <div><strong>150</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Ejemplo de otro tema -->
+            <div class="topic">
+                <div class="topic-icon">🛠️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-techos.html">Mejores prácticas para la impermeabilización de techos</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">EcoArchitect</a> hace 4 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>6</strong> respuestas</div>
+                    <div><strong>98</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🌿</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-materiales.html">¿Qué nuevos materiales de construcción sustentables conocen?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">EcoArchitect</a> hace 1 día</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>30</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">⚠️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-seguridad.html">¿Cuál es el elemento de seguridad más subestimado en una obra?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">CAD_Guru</a> hace 3 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>42</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🌡️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-aislacion.html">Mejor aislante térmico para muros exteriores</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">EcoArchitect</a> hace 8 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>19</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🏢</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-bim.html">¿Alguien está usando BIM (Revit) en lugar de AutoCAD?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">ArchiGeek</a> hace 6 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>75</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">💰</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-presupuesto.html">¿Cómo armar un presupuesto de obra simple?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">CAD_Guru</a> hace 1 día</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>25</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">💧</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-instalaciones.html">¿Termofusión o roscado para instalaciones de agua?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">ArchiGeek</a> hace 9 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>81</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🏛️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-fundaciones.html">¿Plateas, zapatas o pilotes? ¿Cuándo se usa cada tipo de fundación?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">EcoArchitect</a> hace 12 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>110</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🗺️</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-planos.html">¿Consejos para interpretar planos de instalaciones?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">CAD_Guru</a> hace 1 hora</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>15</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🧱</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-hormigon.html">¿Qué aditivos para hormigón son los más comunes?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">ArchiGeek</a> hace 16 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>121</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🔩</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-steel-framing.html">Steel Framing vs. Construcción tradicional: ¿Ventajas reales?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">EcoArchitect</a> hace 5 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>12</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">📐</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-topografia.html">Uso del nivel óptico en topografía</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">CAD_Guru</a> hace 20 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>140</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🧱</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-revoques.html">Revoque grueso y fino: ¿Diferencias en la mezcla?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">ArchiGeek</a> hace 8 horas</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>9</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🔊</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-acustica.html">¿Cómo mejorar la aislación acústica entre habitaciones?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">ArchiGeek</a> hace 25 días</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>160</strong> vistas</div>
+                </div>
+            </div>
+
+            <!-- Nuevo tema -->
+            <div class="topic">
+                <div class="topic-icon">🎨</div>
+                <div class="topic-details">
+                    <h3><a href="../temas/tema-construcciones-pintura.html">¿Pintura látex o esmalte sintético?</a></h3>
+                    <div class="topic-info">Iniciado por <a href="#">CAD_Guru</a> hace 1 hora</div>
+                </div>
+                <div class="topic-stats">
+                    <div><strong>1</strong> respuestas</div>
+                    <div><strong>5</strong> vistas</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 E.E.S.T. N°5 "Amancio Williams". Todos los derechos reservados. Creado por los alumnos en el Club de Tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
